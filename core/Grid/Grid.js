@@ -19,7 +19,7 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 
 var _classnames = _interopRequireDefault(require("classnames"));
 
-var _utils = require("@material-ui/utils");
+var _utils = require("cohub-material-ui/utils");
 
 var _withStyles = _interopRequireDefault(require("../styles/withStyles"));
 
@@ -236,23 +236,23 @@ function Grid(props) {
   var _classNames;
 
   var alignContent = props.alignContent,
-      alignItems = props.alignItems,
-      classes = props.classes,
-      classNameProp = props.className,
-      Component = props.component,
-      container = props.container,
-      direction = props.direction,
-      item = props.item,
-      justify = props.justify,
-      lg = props.lg,
-      md = props.md,
-      sm = props.sm,
-      spacing = props.spacing,
-      wrap = props.wrap,
-      xl = props.xl,
-      xs = props.xs,
-      zeroMinWidth = props.zeroMinWidth,
-      other = (0, _objectWithoutProperties2.default)(props, ["alignContent", "alignItems", "classes", "className", "component", "container", "direction", "item", "justify", "lg", "md", "sm", "spacing", "wrap", "xl", "xs", "zeroMinWidth"]);
+    alignItems = props.alignItems,
+    classes = props.classes,
+    classNameProp = props.className,
+    Component = props.component,
+    container = props.container,
+    direction = props.direction,
+    item = props.item,
+    justify = props.justify,
+    lg = props.lg,
+    md = props.md,
+    sm = props.sm,
+    spacing = props.spacing,
+    wrap = props.wrap,
+    xl = props.xl,
+    xs = props.xs,
+    zeroMinWidth = props.zeroMinWidth,
+    other = (0, _objectWithoutProperties2.default)(props, ["alignContent", "alignItems", "classes", "className", "component", "container", "direction", "item", "justify", "lg", "md", "sm", "spacing", "wrap", "xl", "xs", "zeroMinWidth"]);
   var className = (0, _classnames.default)((_classNames = {}, (0, _defineProperty2.default)(_classNames, classes.container, container), (0, _defineProperty2.default)(_classNames, classes.item, item), (0, _defineProperty2.default)(_classNames, classes.zeroMinWidth, zeroMinWidth), (0, _defineProperty2.default)(_classNames, classes["spacing-xs-".concat(String(spacing))], container && spacing !== 0), (0, _defineProperty2.default)(_classNames, classes["direction-xs-".concat(String(direction))], direction !== Grid.defaultProps.direction), (0, _defineProperty2.default)(_classNames, classes["wrap-xs-".concat(String(wrap))], wrap !== Grid.defaultProps.wrap), (0, _defineProperty2.default)(_classNames, classes["align-items-xs-".concat(String(alignItems))], alignItems !== Grid.defaultProps.alignItems), (0, _defineProperty2.default)(_classNames, classes["align-content-xs-".concat(String(alignContent))], alignContent !== Grid.defaultProps.alignContent), (0, _defineProperty2.default)(_classNames, classes["justify-xs-".concat(String(justify))], justify !== Grid.defaultProps.justify), (0, _defineProperty2.default)(_classNames, classes["grid-xs-".concat(String(xs))], xs !== false), (0, _defineProperty2.default)(_classNames, classes["grid-sm-".concat(String(sm))], sm !== false), (0, _defineProperty2.default)(_classNames, classes["grid-md-".concat(String(md))], md !== false), (0, _defineProperty2.default)(_classNames, classes["grid-lg-".concat(String(lg))], lg !== false), (0, _defineProperty2.default)(_classNames, classes["grid-xl-".concat(String(xl))], xl !== false), _classNames), classNameProp);
   return _react.default.createElement(Component, (0, _extends2.default)({
     className: className
