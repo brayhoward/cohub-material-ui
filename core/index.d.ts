@@ -153,7 +153,7 @@ export { default as SnackbarContent } from "./SnackbarContent";
 // export { default as FormGroup } from './FormGroup';
 // export { default as FormHelperText } from './FormHelperText';
 // export { default as FormLabel } from './FormLabel';
-// export { default as Grid } from './Grid';
+export { default as Grid } from "./Grid";
 // export { default as GridList } from './GridList';
 // export { default as GridListTile } from './GridListTile';
 // export { default as GridListTileBar } from './GridListTileBar';

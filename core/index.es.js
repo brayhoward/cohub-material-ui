@@ -53,7 +53,10 @@
 // export { default as FormGroup } from './FormGroup';
 // export { default as FormHelperText } from './FormHelperText';
 // export { default as FormLabel } from './FormLabel';
-// export { default as Grid } from './Grid';
+export {
+  default as Grid
+}
+from './Grid';
 // export { default as GridList } from './GridList';
 // export { default as GridListTile } from './GridListTile';
 // export { default as GridListTileBar } from './GridListTileBar';
@@ -91,8 +94,14 @@
 // export { default as RootRef } from './RootRef';
 // export { default as Select } from './Select';
 // export { default as Slide } from './Slide';
-export { default as Snackbar } from "./Snackbar";
-export { default as SnackbarContent } from "./SnackbarContent";
+export {
+  default as Snackbar
+}
+from "./Snackbar";
+export {
+  default as SnackbarContent
+}
+from "./SnackbarContent";
 // export { default as Step } from './Step';
 // export { default as StepButton } from './StepButton';
 // export { default as StepConnector } from './StepConnector';
