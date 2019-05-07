@@ -2,7 +2,7 @@
   "name": "cohub-material-ui",
   "private": false,
   "author": "Material-UI Team",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "dependencies": {
     "debounce": "1.2.0",
     "jss": "9.8.7",
